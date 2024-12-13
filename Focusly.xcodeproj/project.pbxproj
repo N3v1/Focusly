@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		38064CB32D0C99ED00DF5EBD /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 38064CB22D0C99ED00DF5EBD /* LICENSE.md */; };
+		38064CB52D0C9A0B00DF5EBD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 38064CB42D0C9A0B00DF5EBD /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		38064C962D0C907200DF5EBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		38064C822D0C907000DF5EBD /* Focusly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focusly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38064C952D0C907200DF5EBD /* FocuslyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocuslyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38064C9F2D0C907200DF5EBD /* FocuslyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocuslyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38064CB22D0C99ED00DF5EBD /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		38064CB42D0C9A0B00DF5EBD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +82,12 @@
 		38064C792D0C907000DF5EBD = {
 			isa = PBXGroup;
 			children = (
+				38064CB22D0C99ED00DF5EBD /* LICENSE.md */,
 				38064C842D0C907000DF5EBD /* Focusly */,
 				38064C982D0C907200DF5EBD /* FocuslyTests */,
 				38064CA22D0C907200DF5EBD /* FocuslyUITests */,
 				38064C832D0C907000DF5EBD /* Products */,
+				38064CB42D0C9A0B00DF5EBD /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38064CB32D0C99ED00DF5EBD /* LICENSE.md in Resources */,
+				38064CB52D0C9A0B00DF5EBD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Focusly/Focusly.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -401,6 +413,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focusly;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,6 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Focusly/Focusly.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -429,6 +443,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focusly;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
